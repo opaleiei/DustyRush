@@ -1,0 +1,17 @@
+{
+"companyName": "DUSTYRUSH",
+"productName": "Dusty RushV1.9.3.5",
+"productVersion": "1.0",
+"dataUrl": "DustyRush.data.unityweb",
+"wasmCodeUrl": "DustyRush.wasm.code.unityweb",
+"wasmFrameworkUrl": "DustyRush.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "DustyRush.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.0a3"
+}
