@@ -3,7 +3,7 @@
 "productName": "Dusty RushV1.9.3.5",
 "productVersion": "1.0",
 "dataUrl": "DustyRush.data.unityweb",
-"wasmCodeUrl": "DustyRush.wasm.code.unityweb",
+"wasmCodeUrl": "DustyRush.wasm",
 "wasmFrameworkUrl": "DustyRush.wasm.framework.unityweb",
 "graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
