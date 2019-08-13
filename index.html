@@ -13,9 +13,21 @@
     </script>
 </head>
 <body>
+    <body OnLoad="JavaScript:openFullscreen() ;">
 <div class="webgl-content">
     <div id="gameContainer" style="width: 960px; height: 540px"></div>
 </div>
 <script src="TemplateData/responsive.javascript"></script>
+<script type="javascript">
+var elem = document.documentElement;
+function openFullscreen() 
+{
+    elem.requestFullscreen();
+    elem.mozRequestFullScreen();
+    elem.webkitRequestFullscreen();
+    elem.msRequestFullscreen();
+}
+        window.onload = openFullscreen;
+</script>
 </body>
 </html>
