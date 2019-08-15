@@ -3,7 +3,12 @@
 
 </head>
 
-<body onLoad="window.open('download.html', '', 'fullscreen=yes, scrollbars=auto'); window.opener=null; window.close(); return false;">
+<script> function maxwin() {
+    var wscript = new ActiveXObject("WScript.Shell");
+    if (wscript!=null) {
+         wscript.SendKeys("{F11}");
+    }
+} </script>
 
 </body>
 
