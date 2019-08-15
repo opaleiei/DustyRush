@@ -3,12 +3,17 @@
 
 </head>
 
-<script> function maxwin() {
-    var wscript = new ActiveXObject("WScript.Shell");
-    if (wscript!=null) {
-         wscript.SendKeys("{F11}");
-    }
-} </script>
+<script language="javascript">
+
+function pop1(){
+window.open('index.html','','scrollbars,status=no,width=700px,height=500px,resizable=yes,top=yes,closed=no,fullscreen=no') ;
+window.opener = window.self;
+window.close();
+self.close();
+}
+</script>
+
+<body onload="pop1();">
 
 </body>
 
