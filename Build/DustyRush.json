@@ -1,7 +1,7 @@
 {
 "companyName": "DUSTYRUSH",
-"productName": "Dusty RushV1.9.3.5",
-"productVersion": "1.0",
+"productName": "DustyRush",
+"productVersion": "1.9.6",
 "dataUrl": "DustyRush.data.unityweb",
 "wasmCodeUrl": "DustyRush.wasm.code.unityweb",
 "wasmFrameworkUrl": "DustyRush.wasm.framework.unityweb",
@@ -13,5 +13,5 @@
 "cacheControl": {"default": "must-revalidate"},
 "developmentBuild": false,
 "multithreading": false,
-"unityVersion": "2019.3.0a3"
+"unityVersion": "2019.2.1f1"
 }
